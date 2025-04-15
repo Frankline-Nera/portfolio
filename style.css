@@ -86,4 +86,152 @@
     margin-top: -200px;
     justify-content: end;
   }
+
+  /* PROJECT SECTION */
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+  }
+
+  .projects_heading {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 60px;
+  }
+
+  .projects_heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c1a19;
+  }
+
+  .projects_heading p {
+    background-color: #1c1a19;
+    padding: 1px 30px;
+  }
+
+  .project_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .diff_card {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .diff_card img {
+    width: 327px;
+    height: 237px;
+  }
+
+  .diff_card_text {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 20px;
+    gap: 15px;
+  }
+
+  .diff_card_text h3 {
+    font-size: 32px;
+    color: #1c1a19;
+  }
+
+  .diff_card_text p {
+    font-size: 16px;
+    color: #1c1a19;
+    line-height: 24px;
+    padding-right: 20px;
+  }
+
+  .diff_card_text ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+
+  .diff_card_text ul li {
+    border: 1px solid #465671;
+    color: #1c1a19;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .diff_card_text button {
+    padding: 12px;
+    width: 124px;
+    background-color: #ff6b00;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+
+  .similar_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .similar_card {
+    width: 327px;
+    height: 386px;
+    background: url(./assets/images/similar_bg.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .similar_card h3 {
+    font-size: 32;
+  }
+
+  .similar_card p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .similar_card ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    opacity: 60%;
+  }
+
+  .similar_card ul li {
+    color: #fff;
+    padding: 10px 12px;
+    background-color: #5b5c69;
+    background-color: transparent;
+    border: 1px solid white;
+    opacity: 100%;
+  }
+
+  .similar_card button {
+    bottom: 0;
+    background-color: #ff6b00;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+  }
 }
