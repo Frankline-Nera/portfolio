@@ -234,4 +234,189 @@
     color: #fff;
     font-size: 17px;
   }
+
+  /* ABOUT STYLING */
+  .about,
+  .abt_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about {
+    padding: 20px;
+    background-color: #1c1a19;
+  }
+
+  .abt_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid red;
+  }
+
+  .abt_info h2 {
+    color: #ff6b00;
+    font-size: 72px;
+    font-weight: 400;
+  }
+
+  .abt_info p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+
+  .abt_info button {
+    padding: 12px;
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    width: 156px;
+  }
+
+  .abt_desk_bg {
+    display: none;
+  }
+
+  .abt_mob_bg {
+    display: flex;
+    justify-content: end;
+    margin-top: -90px;
+  }
+
+  .white_line {
+    padding: 1px 150px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  .abt_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .abt_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 225px;
+    height: 281px;
+    color: #fff;
+    gap: 30px;
+  }
+
+  .abt_card span {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .abt_card ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .abt_card span img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .abt_card span h3 {
+    font-size: 32px;
+  }
+
+  .abt_card ul li {
+    font-size: 22px;
+    text-wrap: nowrap;
+  }
+
+  /* CONTACT STYLING */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .contact_text {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    margin: 10px;
+    color: #172b4d;
+  }
+
+  .contact_form form {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_form input {
+    padding: 25px 0;
+    border: none;
+    border-bottom: 1px solid #979493;
+    width: 327px;
+  }
+
+  .contact_form input::placeholder {
+    color: #979493;
+    font-size: 15px;
+    padding-left: 16px;
+  }
+
+  .contact_form form textarea {
+    padding: 45px 0;
+    border-radius: 16px;
+    width: 327px;
+  }
+
+  .contact_form textarea::placeholder {
+    padding-left: 5px;
+    color: #979493;
+    font-size: 15px;
+  }
+
+  .contact_form button {
+    background-color: #ff6b00;
+    color: #fff;
+    width: 130px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /* FOOTER STYLING */
+  footer {
+    background-color: #505f79;
+  }
+
+  footer .mob_social ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .mob_social ul li a img {
+    background-color: #505f79;
+  }
 }
