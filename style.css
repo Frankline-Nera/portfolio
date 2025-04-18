@@ -253,7 +253,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: solid red;
   }
 
   .abt_info h2 {
@@ -283,8 +282,8 @@
 
   .abt_mob_bg {
     display: flex;
-    justify-content: end;
-    margin-top: -90px;
+    margin-left: 65%;
+    margin-top: -80px;
   }
 
   .white_line {
